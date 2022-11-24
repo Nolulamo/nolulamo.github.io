@@ -1,0 +1,38 @@
+.header-container{
+    background-color: lightgrey;
+    color: black;
+}
+.col-md-12, .col-sm-12, .col-xs-12{
+    background-color: lightgrey;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+.main h2{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.col-md-12 h4, .col-sm-12 h4, .col-xs-12 h4{
+    text-align: center;
+}
+#navbarSupportedContent ul{
+    border: 1px solid black;
+    text-align: center;
+}
+button{
+    padding: .5%;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+button:focus{
+    outline: none;
+    border-color: white;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+li a{
+    color: black;
+}
