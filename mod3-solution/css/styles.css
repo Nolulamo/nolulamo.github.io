@@ -7,7 +7,7 @@
     font-weight: 500;
     color: black;
     margin-bottom: 3%;
-    padding: 1%;
+    padding: 2%;
 }
 .main h2{
     text-align: center;
@@ -35,4 +35,10 @@ button:focus{
 }
 li a{
     color: black;
+}
+@media (max-width: 991px){
+    .col-xs-12{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
